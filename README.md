@@ -6,7 +6,9 @@
 ## Degree Program
 **BS Computer Science**
 
-### [Live Website Link](https://cmsc100-laboratory.github.io/02-my-github-page-zianaluag/)
+---
+
+### [Portfolio Website](https://cmsc100-laboratory.github.io/02-my-github-page-zianaluag/)
 
 ---
 
@@ -22,5 +24,7 @@
 - Learned how to deploy a website using GitHub Pages.
 - Gained experience managing repositories and files.
 - Understood basic website hosting with GitHub.
+
+---
 
 ### [References](https://docs.google.com/document/d/1lNyg7h7XeZ7C6-SlHnqwBXnN_VHvCgY2kNXqfpWx6xI/edit?usp=sharing)
