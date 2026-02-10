@@ -24,6 +24,8 @@
 - Learned how to deploy a website using GitHub Pages.
 - Gained experience managing repositories and files.
 - Understood basic website hosting with GitHub.
+- Learned how to structure a website using HTML and style it with CSS.
+- Improved skills in designing responsive and visually appealing web layouts.
 
 ---
 
