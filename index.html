@@ -1,10 +1,336 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Document</title>
-  </head>
-  <body>
-    <p>This is a single paragraph. :)</p>
-  </body>
+<html lang="en">
+
+<head>
+    <title>Ian's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Ian Aluag</div>
+
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+
+                <h1 class="hero-title">Hey, I'm Ian!</h1>
+                <p class="hero-subtitle">a computer science student currently debugging his life decisions.</p>
+                <a href="#about" class="button">Learn More About Me</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-placeholder">
+
+                        <span>
+                          <img src="assets/photo.jpg" alt="Profile Picture">
+                        </span>
+
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-text">
+                        <p>I'm a graduating Computer Science student with a deep passion for frontend development, as well as creating intuitive user experiences. My journey in web development started during my first year of college, and since then, I've been dedicated to mastering the art of building functional web applications.</p>
+                        
+                        <p>Throughout my academic career, I've developed a strong foundation in software engineering principles. However, my true passion lies in the principle of simplicity. I believe that is the name of the game.</p>
+                        
+                        <p>When I'm not coding, you can find me exploring the latest web technologies or sharing knowledge with some fellow developers in the community. I believe in continuous learning and staying updated as the industry evolves faster than ever.</p>
+                        
+                        <p>I'm currently seeking opportunities to grow as a Frontend Software Engineer, where I can apply my skills and hopefully contribute to building products that make a difference.</p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Years of Study</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">~10</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Dedication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">A comprehensive overview of my technical and management capabilities</p>
+            
+            <div class="skills-grid">
+                <!-- Web Programming Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Web Programming</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+
+                                <span class="skill-name">HTML5 & CSS3</span>
+                                <span class="skill-level">Advanced</span>
+
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-level">Advanced</span>
+
+                            </div>
+                            <div class="skill-bar">
+
+                                <div class="skill-progress" style="width: 90%"></div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+
+                            <div class="skill-header">
+                                <span class="skill-name">React.js</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Git & Version Control</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js & npm</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Management Skills -->
+                <div class="skill-category">
+                    <h3 class="category-title">Management & Soft Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Project Management</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Agile Methodology</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Team Collaboration</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Time Management</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Problem Solving</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Communication</span>
+                                <span class="skill-level">Paldo</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 100%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent work and personal projects</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                          <img src="assets/shscapstoneproject.gif" alt="SHS Capstone Project">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Optimization using Multiple BFS</h3>
+                        <p class="project-description">Developed a capstone project optimizing waste bin placement in Brgy. Paciano Rizal, Bay, Laguna by minimizing residents' walking distances and improving collection efficiency. Converted aerial imagery into a 75x50 grid and implemented a novel Multiple BFS algorithm—running simultaneous BFS from various starting points—to identify the most accessible configurations.</p>
+                        <a href="https://www.ukdr.uplb.edu.ph/etd-capstone/148/">Link</a>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Geospatial Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                          <img src="assets/cmsc12project.gif" alt="Connections">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Connections</h3>
+                        <p class="project-description">The project involves the creation of a Python program to play the NYT word game “Connections”. The program should be able to read an answer key and an initial board, gather the user’s 4-word guess, and implement the checking and game logic the Connection game employs.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Game Development</span>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                          <img src="assets/cmsc22project.gif" alt="ComSignUP">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ComSignUP</h3>
+                        <p class="project-description">Developed an ICS Registration Planner GUI application in JavaFX to assist students in planning First Semester AY 2025–2026 courses across BS/MS/PhD Computer Science and Master of Information Technology programs, enforcing program-specific enrollment restrictions through OOP design patterns. Implemented user authentication/registration, dynamic course CRUD operations with real-time calendar visualization of schedules, detailed course modals, and intuitive error feedback for optimal usability and navigation.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Database Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-text">I'm currently looking for Frontend Software Engineer opportunities. Feel free to reach out if you'd like to work together or just want to chat about web development!</p>
+                
+                <div class="contact-links">
+                    <a href="mailto:zcaluag1@up.edu.ph" class="contact-link">
+                        <span class="link-text">Email</span>
+                    </a>
+                    <a href="https://github.com/zianaluag" target="_blank" class="contact-link">
+                        <span class="link-text">GitHub</span>
+                    </a>
+                    <a href="https://www.facebook.com/zianaluag/" target="_blank" class="contact-link">
+                        <span class="link-text">Facebook</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <span class="logo">Ian Aluag</span>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2026. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
